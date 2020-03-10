@@ -67,6 +67,7 @@ else
                         npm run build --if-present
                 else
                         echo "---> Using 'npm install -sABER :D --only=production'"
+npm config list
 sleep 22
                         npm install -s --only=production
                 fi
